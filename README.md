@@ -1,5 +1,5 @@
 # Machine Learning Engineer Nanodegree
-(Projects are in reverse chronological order)
+(Projects are listed in reverse chronological order)
 
 ## Capstone Project: Kaggle's Personalized Medicine
 
