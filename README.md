@@ -10,7 +10,7 @@ This is my very first competition since I started my journey of data science the
 
 I found it’s rather interesting to see how machine learning can help in routine biological study. Actually, there are tons of repetitive work in a junior researcher’s career. For me, as my project is using biophysical method to study the structural and functional characteristics of a pathological protein, I am exposed to lots of NMR data every day. It always takes weeks or even months to manually assign amino acid fingerprint son HSQC to its primary structure by comparing their chemical shift with empirical values, which is totally boring and mechanic. Therefore, I am very interested in applying my knowledge and skills I learned here to change this situation.
 
-**Note:**
+**Note**
 - The mentioned kaggle competition is [here](https://www.kaggle.com/c/msk-redefining-cancer-treatment).
 - All the files mentioned could be found in `data` folder or accessed [here](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data).  
 - My kaggle profile is [here](https://www.kaggle.com/lu1993).
@@ -26,7 +26,7 @@ I found it’s rather interesting to see how machine learning can help in routin
 - [XGBOOST](https://xgboost.readthedocs.io/en/latest/)
 - [Entrez-biopython](http://biopython.org/DIST/docs/api/Bio.Entrez-module.html)
 
-## Skills Used:
+## Skills Used
 - Research and investigate a real-world problem of interest.
 - Accurately apply specific machine learning algorithms and techniques.
 - Properly analyze and visualize your data and results for validity.
@@ -34,7 +34,7 @@ I found it’s rather interesting to see how machine learning can help in routin
 - Prioritize and implement numerous of ideas and hypothesis.
 - Document and write a structed report.
 
-## References:
+## References
 
 [0] [Kaggle Competition: Personalized Medicine](https://www.kaggle.com/c/msk-redefining-cancer-treatment)
     
