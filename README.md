@@ -10,19 +10,21 @@ This is my very first competition since I started my journey of data science the
 
 I found it’s rather interesting to see how machine learning can help in routine biological study. Actually, there are tons of repetitive work in a junior researcher’s career. For me, as my project is using biophysical method to study the structural and functional characteristics of a pathological protein, I am exposed to lots of NMR data every day. It always takes weeks or even months to manually assign amino acid fingerprint son HSQC to its primary structure by comparing their chemical shift with empirical values, which is totally boring and mechanic. Therefore, I am very interested in applying my knowledge and skills I learned here to change this situation.
 
-Note:
-The mentioned kaggle competition is [here](https://www.kaggle.com/c/msk-redefining-cancer-treatment).
-All the files mentioned could be found in `data` folder or accessed [here](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data).
-My kaggle profile is [here](https://www.kaggle.com/lu1993).
+**Note:**
+- The mentioned kaggle competition is [here](https://www.kaggle.com/c/msk-redefining-cancer-treatment).
+- All the files mentioned could be found in `data` folder or accessed [here](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data).  
+- My kaggle profile is [here](https://www.kaggle.com/lu1993).
 
 ## Software and Libararies
-- python2.7
-- scipy, pandas, numpy,
-- seaborn, matplotlib
-- re, sklearn
-- gensim (word2vec)
-- xgboost
-- Entrez-biopython
+- [Python 2.7](https://www.python.org/download/releases/2.7/)
+- [NumPy](http://www.numpy.org/)
+- [pandas](http://pandas.pydata.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
+- [matplotlib](http://matplotlib.org/)
+- [Seaborn](https://seaborn.pydata.org)
+- [Gensim (word2vec)](https://radimrehurek.com/gensim/)
+- [XGBOOST](https://xgboost.readthedocs.io/en/latest/)
+- [Entrez-biopython](http://biopython.org/DIST/docs/api/Bio.Entrez-module.html)
 
 ## Skills Used:
 - Research and investigate a real-world problem of interest.
@@ -35,7 +37,7 @@ My kaggle profile is [here](https://www.kaggle.com/lu1993).
 ## References:
 
 [0] [Kaggle Competition: Personalized Medicine](https://www.kaggle.com/c/msk-redefining-cancer-treatment)
-
+    
 [1] [OncoKB: A Precision Oncology Knowledge Base](http://ascopubs.org/doi/full/10.1200/PO.17.00011)
 
 [2] [Cancer-specific High-throughput Annotation of Somatic Mutations: computational prediction of driver missense mutations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763410/)
