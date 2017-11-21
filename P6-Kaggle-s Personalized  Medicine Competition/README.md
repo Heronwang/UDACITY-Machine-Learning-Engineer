@@ -29,17 +29,14 @@ I found it’s rather interesting to see how machine learning can help in routin
 - Prioritize and implement numerous of ideas and hypothesis.
 - Document and write a structed report.
 
-**Capstone Project for Machine Learning Engineer Nanodegree**
+## Capstone Project for Machine Learning Engineer Nanodegree
 
-**Kaggle's Personalized Medicine Competition**
+# Kaggle's Personalized Medicine Competition
 
-Wang Lu  
-
-November 12th, 2017
 
 **Part I. Proposal**
 
-**Project Overview**
+### Project Overview
 
 A lot has been said during the past several years about how precision
 medicine and, more concretely, how genetic testing is going to disrupt
@@ -123,7 +120,7 @@ according to their official website \[1\] is like this:
 competition has added [5 more
 files](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data))
 
-**Problem Statement**
+### Problem Statement
 
 According to the host, they want algorithms to classify genetic
 mutations based on clinical evidence (text). There are nine different
@@ -165,7 +162,7 @@ evaluating the performance of my models. (AUC should also work for
 classification problem here but since log loss is taken by host to
 calculate rankings I would use only log loss for optimizing the method)
 
-**Evaluation Metrics**
+### Evaluation Metrics
 
 For this competition, the evaluation metric used is [Logarithmic
 Loss](https://www.kaggle.com/wiki/LogarithmicLoss) metric. Each
@@ -203,7 +200,7 @@ testing point, which are the predicted confidence of that class to be
 the actual label. Log loss is a very good choice of metric under this
 situation.
 
-**References for proposal:**
+### References for proposal
 
 \[1\] *OncoKB: A Precision Oncology Knowledge Base*
 
@@ -227,7 +224,7 @@ and Protein Domain*
 
 **Part II. Analysis**
 
-**1.1 Data Exploration**
+### 1.1 Data Exploration
 
 Since the competition is divided into 2 stages, the solution of stage
 one competition towards stage one test set can be added to training
@@ -289,7 +286,7 @@ Weight of Each Class
 
 **Fig 1.**
 
-**1.2 Exploratory Visualization**
+### 1.2 Exploratory Visualization**
 
 Since there are too few variables in input data and none of them are
 numerical. I created some numerical variables from original categorical
@@ -368,7 +365,7 @@ distribution, in which almost 95 percent of its text are in range (20K,
 distribution, indicated by the long and narrow spindle shape. Text
 length also looks like a promising feature for forecasting the class.
 
-**1.3 Algorithms and Techniques**
+### 1.3 Algorithms and Techniques**
 
 I will heavily need pandas, numpy and sklearn libraries and sometimes I
 need sns to show correlation or feature importance. Since the inputs are
@@ -442,7 +439,7 @@ function for watchlist and automatically generate the best iteration.
 to the 3 points I mentioned, XGB is great in predicting as a single
 model and even greater as a generalizer of the ensemble model.
 
-**1.4 Benchmark**
+### 1.4 Benchmark
 
 For benchmark model, I use gene-encoding features only based on the
 consensus that variants from same gene should have more related
@@ -458,7 +455,7 @@ features, I got an average score of 1.21216637352 from 5-fold validation
 without tuning. This gives the baseline from where the text features
 should start with.
 
-**2.1** **Data Pre-processing**
+### 2.1 Data Pre-processing
 
 (Feature selection and feature transformation will be discussed in
 Implementation part. Here I will mainly talk about feature engineering
@@ -525,7 +522,7 @@ much diversity variation has, I have to aggregate them so that I can
 have reasonable dimensions of feature after one-hot encoding, by
 labelling all point mutations as SNP, \`\*\` as null, and such.
 
-**2.2** **Implementation and Refinement**
+### 2.2 Implementation and Refinement
 
 Feature selection and extraction process is more like a trial and error
 for me. And depend on what algorithm to choose, the ideal input could be
@@ -675,7 +672,7 @@ In sum, I can say with confidence that the final model has improved at
 least by 0.4142 from benchmark model, and is potential to improve
 another 0.06 on some dataset.
 
-**3.1 Model Evaluation and Validation**
+### 3.1 Model Evaluation and Validation
 
 The 2 final models both perform fairly well, and fined tuned with most
 appropriated hyper parameters. I have checked the model based on
@@ -701,7 +698,7 @@ much more, but that’s because I intentionally look for model owning this
 feature which gives it potential of supernormal performance. In sum, the
 results are very trustable.
 
-**3.2 Justification**
+### 3.2 Justification
 
 The final results are much stronger than the benchmark result. And I
 have thoroughly analysed and discussed about the final solution. Since
@@ -712,13 +709,13 @@ performing model along with one model that performs fairly good but has
 great variance, of which one can guarantee a fair bottom performance and
 the other challenges the excellence respectively.
 
-**4.1 Free-Form Visualization**
+### 4.1 Free-Form Visualization
 
 I would choose **fig 6.** for this Free-Form Visualization section as it
 shows clearly the consensus and disagreement among estimators. Please
 refer to **2.2 Implement and Refinement** for more explanation of it.
 
-**4.2 Reflection**
+### 4.2 Reflection
 
 I found it’s really interesting to see how machine learning can help in
 routine biological study. Actually, there are tons of repetitive work in
@@ -755,7 +752,7 @@ models do provide a new perspective in understanding literature and
 perhaps helpful in settling controversial between human experts who
 always have pre-formed bias.
 
-**4.3 Improvement**
+### 4.3 Improvement
 
 As I have mentioned before, a bunch of informatics and biology methods
 could have been added to improve the model. Such as using tagging tools
@@ -771,7 +768,7 @@ vector for Text. Due to lots of limitations, however, I didn’t use any
 external data in my final models, but it’s definitely could have been
 made to improve the model.
 
-**References for analysis:**
+### References for analysis
 
 \[1\] [*Personalised Medicine - EDA with tidy
 R*](https://www.kaggle.com/headsortails/personalised-medicine-eda-with-tidy-r)
