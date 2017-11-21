@@ -2,7 +2,7 @@
 (Projects are listed in reverse chronological order)
 
 ## Capstone Project: Kaggle's Personalized Medicine
-![GitHub Logo](/P6-Kaggle-s Personalized Medicine Competition/kaggle_Meds.jpg)
+![Kaggle](https://raw.githubusercontent.com/Heronwang/Machine-Learning-Engineer/master/P6-Kaggle-s%20Personalized%20%20Medicine%20Competition/kaggle_Meds.jpg)
 
 ## Overview
 The host, Memorial Sloan Kettering Cancer Center (MSKCC), has been maintaining the database OncoKB for the purpose of knowledge sharing of mutation effects among oncologist. Currently this interpretation of genetic mutations is being done manually. This is a very time-consuming task where a clinical pathologist has to manually review and classify every single genetic mutation based on evidence from text-based clinical literature. And due to my combined interest in biology and data science, I am interested in using my expertise to develop a machine learning algorithm that, using an expert-annotated knowledge base as a baseline, automatically classifies genetic variations.
