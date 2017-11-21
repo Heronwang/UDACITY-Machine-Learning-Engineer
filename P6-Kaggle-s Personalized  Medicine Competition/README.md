@@ -81,10 +81,8 @@ variant. Text information annotated to each variant are also hand-picked
 by those domain experts. Given gene AKT1, variant E17K, their workflow
 according to their official website \[1\] is like this:
 
-<img src="media/image1.jpeg" width="601" height="103" />
+<img src="media/image1.png" width="601" height="103" />. 
 
-**  
-**
 
 **Details of input datasets: **
 
@@ -365,7 +363,7 @@ distribution, in which almost 95 percent of its text are in range (20K,
 distribution, indicated by the long and narrow spindle shape. Text
 length also looks like a promising feature for forecasting the class.
 
-### 1.3 Algorithms and Techniques**
+### 1.3 Algorithms and Techniques
 
 I will heavily need pandas, numpy and sklearn libraries and sometimes I
 need sns to show correlation or feature importance. Since the inputs are
@@ -535,7 +533,7 @@ feature selection, reduction and extraction like the one below, which is
 inspired by [the1owl’s
 kernel](https://www.kaggle.com/the1owl/redefining-treatment-0-57456) :
 
-<img src="media/image9.png" width="583" height="137" />
+<img src="media/image11.png" width="583" height="137" />
 
 The first sub-pipeline \`standard\` will take care of all numerical
 values; \`pi1\` and \`pi2\` use CountVecterizer to extract Gene and
@@ -550,7 +548,7 @@ variables and trying different combinations of available features. Using
 non-optimized logistic regression as tentative model, the preliminary
 results are summarised as below:
 
-<img src="media/image10.png" width="600" height="147" />
+<img src="media/image9.png" width="600" height="147" />
 
 As expected, algorithm using any group of features alone can give better
 score than naïve uniform weighted guess that I mentioned in benchmark
@@ -643,7 +641,7 @@ classifiers against 9 classes can be found be the graph below:
 
 Correlation Heat Map of 9 Classes
 
-<img src="media/image11.png" width="593" height="342" />
+<img src="media/image10.png" width="593" height="342" />
 
 **Fig 6.**
 
