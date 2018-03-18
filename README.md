@@ -1,5 +1,7 @@
-# Machine Learning Engineer Nanodegree
-(Projects are listed in reverse chronological order)
+# Machine Learning Engineer Nanodegree. 
+<img src = 'mlnd-certificate.png'> 
+
+(Projects are listed in reverse chronological order). 
 
 ## Capstone Project: Kaggle's Personalized Medicine
 ![Kaggle](https://raw.githubusercontent.com/Heronwang/Machine-Learning-Engineer/master/P6-Kaggle-s%20Personalized%20%20Medicine%20Competition/kaggle_Meds.jpg)
