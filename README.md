@@ -1,4 +1,13 @@
-# Machine Learning Engineer Nanodegree. 
+# Machine Learning Engineer Nanodegree
+
+### Estimated length of program: 
+    200 hrs (Udacity Offical)   
+
+### Suggested Complete Time: 
+    10 - 12 months (Udacity Official) 
+
+### Actual Complete Time: 
+    4 weeks   
 <img src = 'mlnd-certificate.png'> 
 
 (Projects are listed in reverse chronological order). 
